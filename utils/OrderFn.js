@@ -30,7 +30,7 @@ OrderFn.prototype.run = function()
 {
     if(this._isRun == false)
     {
-        if(this._itemFnList.length - 1 > this._currentPosition)
+        if(this._itemFnList.length > this._currentPosition)
         {
             var mFn = this._itemFnList[this._currentPosition];
             this._isRun = true;
